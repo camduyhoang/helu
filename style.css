@@ -1,0 +1,27 @@
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px red;
+    width: 20%;
+    
+}
+.vmenu a{
+    background: url('/lab7/anh/1337497_game_go_play_pikachu_pokemon_icon.png') no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orange;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover {
+    text-decoration: underline;
+    background: url('/lab7/anh/2849826_finger_interaction_hand_like_multimedia_icon.png') no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
